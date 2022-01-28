@@ -59,11 +59,11 @@ header{
 	color: #2069AD;
 }
 /*header end*/
-/*.box_1{
+.box_1{
 	background-color: black;
 	width: 100%;
 	height: 3px;
-}*/
+}
 /* banner start */
 .banner {
 	background-image: url(../images/banner.jpg);
