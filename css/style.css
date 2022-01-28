@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+header{
+	background-color: #121B2A;
+	padding: 10px;
+}
+
+.wrapper {
+	/*border: 5px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.logo {
+	width: 15%;
+	display: block;
+	/*border: 1px solid orange;*/
+	float: left;
+}
+.logo img{
+	width: 70%;
+}
+
+.menu {
+	width: 60%;
+	/*border: 1px solid orange;*/
+	float: right;
+	padding-top: 30px;
+}
+
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 5px 15px;
+	display: block;
+	color: white;
+	transition: .5s;
+}.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #2069AD;
+}
+/*header end*/
+/*.box_1{
+	background-color: black;
+	width: 100%;
+	height: 3px;
+}*/
+/* banner start */
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*min-height: 350px;*/
+	background-position: center;
+}
+
+.banner-content {
+	margin-top: 200px;
+	margin-bottom: 60px;
+	padding-right: 2px;
+	width: 40%;
+	color: white;
+	padding-left: 15px;
+	font-family: 'Libre Baskerville', serif;
+}
+.banner-content p:first-child {
+	color: white;
+	font-size: 35px;
+	
+}
+.banner-content h1 {
+	color: orange;
+	font-size: 43px;
+	font-family: 'Libre Baskerville', serif;
+}
+.banner-content p:nth-last-child(2){
+	color: white;
+	font-size: 18px;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.5;
+}
+.banner-content button{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #5A5A5A;
+	font-size: 18px;
+	margin-top: 20px;
+	background-color: white;
+	text-transform: uppercase;
+}
+
+.banner-content button span{
+	background-color: #0291F9;
+	padding: 5px 8px;
+	color: white;
+	border-radius: 50%;
+	margin-left: 12px;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #2069AD;
+	padding: 50px 0;
+	
+}
+.single{
+	/*border: 2px solid white;*/
+	width: 31%;
+	padding: 10px 10px;
+	float: left;
+	border-right: 1px solid white;
+	margin-left: 8px;
+}
+.single:last-child{
+	border-right: 0;
+	padding-right: 20.8px;
+
+}
+.title{
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.icon{
+	width: 20%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+	padding-right: 8px;
+
+}
+.icon-content{
+	width: 75%;
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.icon-content h1{
+	color: white;
+	text-transform: capitalize;
+	font-family: 'Libre Baskerville', serif;
+	/*font-size: 16px;*/
+	font-weight: normal;
+}
+.icon-content h2{
+	color: orange;
+	text-transform: capitalize;
+	font-weight: normal;
+	font-family: 'Libre Baskerville', serif;
+
+}
+.content{
+
+}
+.content p{
+	color: white;
+	font-size: 18px;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.5;
+}
+/*service end*/
+
+/*address start*/
+.address{
+	background-color: #040811;
+	padding: 50px 0 ;
+	line-height: 1.5
+
+}
+
+.info{
+	width: 25%;
+	padding: 10px 30px;
+	/*border-right: 1px solid white;*/
+	margin-left: 3px;
+	float: left;
+	padding-left: 170px;
+	margin-top: 30px;
+}
+.info-data{
+	width: 80%;
+
+}
+.info-data h1{
+	display: inline;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: white;
+
+}
+.info-data h2{
+	display: inline;
+	color: #0075B8;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.info-content p{
+	color: white;
+	font-size: 14px;
+}
+
+.box_2{
+	background-color: #121B2C;
+	width: 23%;
+	color: white;
+	padding: 10px 30px;
+	/*border-right: 1px solid white;*/
+	margin-left: 3px;
+	float: left;
+	margin-top: 30px;
+}
+
+}
+.box-data{
+	width: 70%;
+
+}
+.box-data h1{
+	display: inline;
+	font-size: 16px;
+	font-family: sans-serif;
+
+}
+.box-data h2{
+	display: inline;
+	color: #0075B8;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.box-content p{
+	color: white;
+	font-size: 14px;
+}
+
+.phone{
+
+	width: 20%;
+	padding: 10px 30px;
+	/*border-right: 1px solid white;*/
+	margin-left: 3px;
+	float: LEFT;
+}
+.name{
+	COLOR: WHITE;
+	font-family: sans-serif;
+
+}
+.images{
+ 	padding-bottom: 4px;
+ 	margin-top: 20px;
+}
+.images img{
+	width: 95%;
+	padding-left: 30px;
+}
+/*address end */
+/*bottom start*/
+.bottom {
+	background-color: #2069AD;
+	height: 45px;
+}
+
+.box_3 {
+	margin-top: 35ps;
+}
+
+.box-_3-data {
+	text-align: center;
+	
+}
+.box-_3-data p {
+	margin-top: 12px;
+	color: white;
+}
+
+/*bottom end*/
